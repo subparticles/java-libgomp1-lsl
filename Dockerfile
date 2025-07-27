@@ -1,4 +1,4 @@
-FROM tdsdockerhub/java-opentelemetry:latest
+FROM tdsdockerhub/java-opentelemetry:java21-opentelemetry2.18.1
 
 RUN apt-get update && apt-get install wget -y
 RUN wget https://github.com/sccn/liblsl/releases/download/v1.16.2/liblsl-1.16.2-jammy_amd64.deb
